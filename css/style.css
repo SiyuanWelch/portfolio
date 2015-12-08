@@ -1,0 +1,18 @@
+.bgimage {
+	background-image: url(../images/food-2015.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 400px;
+}
+
+.icon {
+	width: 200px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+.section {
+	text-align: center
+}
+
