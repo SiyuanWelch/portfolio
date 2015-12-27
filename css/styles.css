@@ -19,7 +19,9 @@ body{
 /* Text */
 
 h1{
-	margin: 0 0 1em 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 1em;
 	font-size: 2.8em;
 	font-weight: 700;
 }
@@ -356,6 +358,10 @@ footer a:hover{
 	padding-bottom: 10px;
 	padding-left: 10px;
 }
+.container .gallery.row .col-xs-6.col-md-2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
 /* Media Queries */
 
@@ -411,7 +417,11 @@ footer a:hover{
 	background-size: 112px 46px;
 	background-position: 20px center;
 	}
-	header div.hero { width: 300px; top: 85px; left: 130px;}
+	header div.hero {
+	width: 538px;
+	top: 130px;
+	left: 125px;
+}
 	header div.hero h1 { margin-bottom: 10px;}
 	
 	
@@ -490,13 +500,3 @@ footer a:hover{
 		margin: 0 20px 0 0;
 		}
 	}
-
-
-
-
-
-
-
-
-
-
